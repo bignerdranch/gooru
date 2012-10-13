@@ -1,3 +1,7 @@
+require "stringio"
+require "weary"
+
+require "gooru/client"
 require "gooru/version"
 
 module Gooru
