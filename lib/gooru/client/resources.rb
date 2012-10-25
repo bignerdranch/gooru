@@ -8,6 +8,8 @@ module Gooru
           :query
 
         resource.optional \
+          :pageNum,
+          :pageSize,
           :sessionToken
       end
 
