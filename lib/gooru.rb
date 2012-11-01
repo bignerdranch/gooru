@@ -1,5 +1,3 @@
-ENV["GOORU_URL"] ||= "http://concept.goorulearning.org/"
-
 require "stringio"
 require "weary"
 
