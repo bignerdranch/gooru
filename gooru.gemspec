@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "weary"
+  gem.add_dependency "weary", "~> 1.1.2"
 
   gem.add_development_dependency "dotenv"
   gem.add_development_dependency "rake"
